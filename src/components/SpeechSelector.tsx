@@ -29,7 +29,7 @@ export function SpeechSelector({
           whileHover={{ scale: 1.05 }}
           whileTap={{ scale: 0.95 }}
           onClick={() => onSelect(id as SpeechType)}
-          className={`flex flex-col items-center gap-2 p-4 rounded-lg transition-colors w-32 mx-1
+          className={`flex flex-col items-center gap-2 p-4 rounded-lg transition-colors w-28 mx-1
             ${
               selectedType === id
                 ? "bg-indigo-600 text-white"
